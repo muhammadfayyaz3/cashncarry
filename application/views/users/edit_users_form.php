@@ -102,7 +102,7 @@
                             <div class="col-sm-6">
                                 <select class="form-control" name="user_type" required="" tabindex="5" id="user_type">
                                     <option value="0" <?php if ($user_type == 0) { echo "selected";}?>><?php echo display('select_one') ?></option>
-                                    <option value="2" <?php if ($user_type == 2) { echo "selected";}?>><?php echo display('user') ?></option>
+                                    <option value="2" <?php if ($user_type == 2) { echo "selected";}?>><?php echo "Operation User" ?></option>
                                     <option value="4" <?php if ($user_type == 4) { echo "selected";}?>><?php echo display('store_keeper') ?></option>
                                 </select>
                             </div>

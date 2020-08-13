@@ -660,6 +660,7 @@ $store_wise_products_count = 0;
                     <!-- pay with method menu end -->
 
                     <!-- theme menu start -->
+                    <?php /*
                     <li class="treeview <?php echo (($this->uri->segment(1) == 'Ctheme' ? 'active':''))?>">
                         <a href="<?php echo base_url('Ctheme') ?>"><i class="fa fa-tint"></i><?php echo display('theme_activation') ?>
                         </a>
@@ -688,6 +689,7 @@ $store_wise_products_count = 0;
                             </li>
                         </ul>
                     </li>
+                    */?>
                     <!-- sms Settings menu end -->
 
                     <!-- Website Settings menu start -->
@@ -793,11 +795,13 @@ $store_wise_products_count = 0;
                     </li>
 
                     <!-- Software Settings menu end -->
+                    <?php /*
                     <li class="treeview <?php echo (($this->uri->segment(1) == 'autoupdate' && ($this->uri->segment(2) == '') ? 'active':''))?>">
                         <a href="<?php echo base_url('autoupdate') ?>"><i class="fa fa-cloud-download" aria-hidden="true"></i><?php echo display('update') ?>
                         </a>
                     </li>
 <!--                    <li><i class="fa fa-cloud-download" aria-hidden="true"></i><span><a href="--><?php //echo base_url('autoupdate') ?><!--">--><?php //echo display('update') ?><!-- </a></span></li>-->
+*/?>
                 <?php }
             } ?>
 
@@ -877,7 +881,7 @@ $store_wise_products_count = 0;
                 </li>
                 <!-- Store stock end -->
             <?php } ?>
-
+            <?php /*
             <li class="<?php if ($this->uri->segment('1') == ("")) {
                 echo "active";
             } else {
@@ -902,6 +906,7 @@ $store_wise_products_count = 0;
                    </span>
                 </a>
             </li>
+            */?>
         </ul>
     </div> <!-- /.sidebar -->
 </aside>

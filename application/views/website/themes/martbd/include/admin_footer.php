@@ -153,6 +153,7 @@ $company_info = $CI->Companies->company_list();
                         }
                     }
                     ?>
+                    <?php /*
                     <?php if (1 == $Web_settings[0]['app_link_status']) { ?>
                         <div class="col-md-4 col-sm-6">
                             <div class="footer-title2">
@@ -171,6 +172,7 @@ $company_info = $CI->Companies->company_list();
                             </div>
                         </div>
                     <?php } ?>
+                    */?>
                 </div>
             </div>
         </div>

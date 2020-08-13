@@ -95,7 +95,7 @@
                                 <select class="form-control" tabindex="6" name="user_type" id="user_type" required="">
                                     <option value="0"><?php echo display('select_one') ?></option>
                                     <option value="1"><?php echo display('admin') ?></option>
-                                    <option value="2"><?php echo display('user') ?></option>
+                                    <option value="2"><?php echo "Operation User" ?></option>
                                     <option value="4"><?php echo display('store_keeper') ?></option>
                                   </select>
                             </div>

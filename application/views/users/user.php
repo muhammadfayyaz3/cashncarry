@@ -86,7 +86,7 @@
 											if ($user_type == 1) {
 												echo  display('admin');
 											}elseif ($user_type == 2){
-												echo display('user');
+												echo "Operation User";
 											}elseif ($user_type == 4) {
 												echo display('store_keeper');
 											}elseif ($user_type == 5) {

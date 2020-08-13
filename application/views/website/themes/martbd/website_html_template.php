@@ -264,6 +264,7 @@ $Soft_settings = $CI->Soft_settings->retrieve_setting_editdata();
                             ?>
                         </select>
                     </li>
+                    <?php /*
                     <li>
                         <?php
                         $css = [
@@ -274,6 +275,7 @@ $Soft_settings = $CI->Soft_settings->retrieve_setting_editdata();
                         echo form_dropdown('language', $languages, $user_lang, $css);
                         ?>
                     </li>
+                    */?>
                 </ul>
             </div>
         </nav>
